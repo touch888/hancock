@@ -1,4 +1,11 @@
 {
+    "name": "hancock/hancock",
+    "type": "project",
+    "keywords": [
+        "php",
+        "swoole",
+        "hancock"
+    ],
     "require": {
         "vlucas/phpdotenv": "^3.3"
     }
