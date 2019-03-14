@@ -6,7 +6,7 @@
         "swoole",
         "hancock"
     ],
-    "description": "Modern High performance AOP and Coroutine PHP Framework, base on Swoole",
+    "description": "hancock Framework, base on Swoole",
     "license": "Apache-2.0",
     "require": {
         "vlucas/phpdotenv": "^3.3"
