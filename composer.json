@@ -1,11 +1,18 @@
 {
-	"repositories": {
+    "name": "hancock/hancock",
+    "type": "project",
+    "keywords": [
+        "php",
+        "swoole",
+        "hancock"
+    ],
+    "repositories": {
         "packagist": {
             "type": "composer",
             "url": "https://packagist.laravel-china.org"
         }
     },
-	"require": {
-		"vlucas/phpdotenv": "^3.3"
-	}
+    "require": {
+        "vlucas/phpdotenv": "^3.3"
+    }
 }
