@@ -1,19 +1,24 @@
 {
-
     "name": "hancock/hancock",
-    "description": "A short description of what your package does",
-    "require": {
-        "php": "^7.2",
-        "hancock/package": "0.*"
-    }
-    ,
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://packagist.laravel-china.org"
+    "type": "library",
+    "description": "Logging for PHP 7.3",
+    "keywords": ["hancock"],
+    "homepage": "https://github.com/touch888/hancock",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordi Boggiano",
+            "email": "j.boggiano@seld.be",
+            "homepage": "http://seld.be",
+            "role": "Developer"
         }
-    },
+    ],
     "require": {
         "vlucas/phpdotenv": "^3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+        }
     }
 }
