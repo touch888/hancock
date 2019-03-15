@@ -9,6 +9,8 @@
     "description": "hancock Framework, base on Swoole",
     "license": "Apache-2.0",
     "require": {
+        "php": ">=7.0",
+        "ext-swoole": ">=2.1",
         "vlucas/phpdotenv": "^3.3"
     }
 }
