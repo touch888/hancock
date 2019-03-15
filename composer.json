@@ -10,7 +10,7 @@
     "license": "Apache-2.0",
     "require": {
         "php": ">=7.0",
-        "ext-swoole": ">=2.1",
+        "ext-swoole": ">=4.3",
         "vlucas/phpdotenv": "^3.3"
     }
 }
